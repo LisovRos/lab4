@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example 2.5</title>
+    <style media="screen">
+      div {
+        display: flex;
+        justify-content: flex-start;
+          }
+        p {
+            display: inline-block;
+            height: 150px;
+            width: 100px;
+            background-color: #eeeff2;
+            border-left-style: dotted;
+            border-left-width: 10px;
+            border-color: #D0D0FF;
+            margin-left: 10px;
+            padding: 10px;
+            cursor: grab;
+            font-size: 40px;
+        }
+        .Felem {
+
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        p:hover{
+        background-color: yellow;
+        color:goldenrod;
+        }
+    </style>
+  </head>
+  <body>
+
+      <div>
+          <p>A</p>
+          <p>B</p>
+          <p>C</p>
+          <p>D</p>
+          <p>E</p>
+          <p class="Felem">F</p>
+      </div>
+  </body>
+</html>
